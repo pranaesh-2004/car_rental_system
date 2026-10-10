@@ -1,0 +1,31 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Node & Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+
+# Local databases & backup
+*.db-journal
+backend/car_rental_backup.db
+
+# OS & Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
